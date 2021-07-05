@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.help.HelpFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help CDD Apps"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#2E1437"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_header"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/btn_help1"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Cara menggunakan aplikasi"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btn_help2"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Jenis penyakit cabai"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btn_help3"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Metode klasifikasi aplikasi CDD"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btn_help4"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Tujuan aplikasi CDD"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btn_help5"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Tingkat akurasi data pada Algoritma C4.5"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btn_help6"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Sumber data klasifikasi aplikasi CDD"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btn_help7"
+            android:shadowColor="@color/grey_old"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Feedback aplikasi CDD"
+            android:shadowRadius="@android:integer/config_mediumAnimTime"
+            android:backgroundTint="@color/orange_button"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

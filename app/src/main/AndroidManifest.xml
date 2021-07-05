@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cddteam">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CDDTeam">
+        <activity android:name=".ScannerAlgoritmaCitraActivity"></activity>
+        <activity android:name=".ScannerGalleryActivity" />
+        <activity android:name=".ScannerCameraActivity" />
+        <activity android:name=".HomeBeritaLimaActivity" />
+        <activity android:name=".HomeBeritaEmpatActivity" />
+        <activity android:name=".HomeBeritaTigaActivity" />
+        <activity android:name=".HomeBeritaDuaActivity" />
+        <activity android:name=".HomeBeritaSatuActivity" />
+        <activity android:name=".DashboardBusukBuahActivity" />
+        <activity android:name=".DashboardBercakDaunActivity" />
+        <activity android:name=".DashboardVirusGeminiActivity" />
+        <activity android:name=".DashboardVirusKuningActivity" />
+        <activity android:name=".DashboardLayuActivity" />
+        <activity android:name=".DashboardBusukDaunActivity" />
+        <activity
+            android:name=".BottomActivity"
+            android:label="@string/title_activity_bottom" />
+        <activity android:name=".HelpFeedbackActivity" />
+        <activity android:name=".HelpKlasifikasiActivity" />
+        <activity android:name=".HelpAlgoritmaActivity" />
+        <activity android:name=".HelpTujuanActivity" />
+        <activity android:name=".HelpMetodeActivity" />
+        <activity android:name=".HelpPenyakitActivity" />
+        <activity android:name=".HelpIterasiActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

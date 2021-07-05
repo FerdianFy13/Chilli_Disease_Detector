@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcdddfragment"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bglogo"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/txt_viewmainhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Welcome"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_viewmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everything"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#434343"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_viewmain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="you needed"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#434343"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_viewmain3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and you didn't even know!"
+            android:textColor="#243B55"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_main"
+            android:layout_marginTop="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get started"
+            android:background="@drawable/btnform"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:id="@+id/frame_main">
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

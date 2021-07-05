@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.cddteam.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.cddteam.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="com.example.cddteam.ui.Scanner.ScannerFragment"
+        android:label="@string/title_scan"
+        tools:layout="@layout/fragment_scanner" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.cddteam.ui.help.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_help"/>
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.example.cddteam.ui.about.AboutFragment"
+        android:label="@string/title_about"
+        tools:layout="@layout/fragment_about" />
+
+    <activity
+        android:id="@+id/loginActivity2"
+        android:name="com.example.cddteam.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/signupActivity2"
+        android:name="com.example.cddteam.SignupActivity"
+        android:label="activity_signup"
+        tools:layout="@layout/activity_signup" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.cddteam.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/homeActivity2"
+        android:name="com.example.cddteam.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+
+</navigation>
